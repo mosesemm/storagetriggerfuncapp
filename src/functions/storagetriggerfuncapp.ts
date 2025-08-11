@@ -26,6 +26,6 @@ export async function storagetriggerfuncapp(blob: Buffer, context: InvocationCon
 
 app.storageBlob('storagetriggerfuncapp', {
     path: 'files/{name}',
-    connection: 'mashandiroStorage',
+    connection: 'MashandiroStorage',
     handler: storagetriggerfuncapp
 });
